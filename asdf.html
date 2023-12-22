@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="icon" href="i(4).webp" type="image/x-icon">
+    <link rel="stylesheet" href="asf.css">
+    <title>
+        Аниме
+    </title>
+    </head>
+    <body>
+        <table class="red">
+            <tr>
+                <td>
+                    <img src="i(4).webp" class="weq" width="50" height="50" alt="1232">
+                </td>
+                <td>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://jut.su/anime/">Все аниме</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.megacritic.ru/top/anime/luchshie-anime-2023">Топ аниме</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Мой совет</a>
+            </li>
+        </ul>
+          <form method="get" class="nav-item">
+            <input placeholder="Искать здесь..." type="search">
+            <button type="submit">Поиск</button>
+          </form>
+          </td>
+          </tr>
+          </table>
+          <table>
+            <tr>
+                <td>
+          <div id="container">
+            <div class="pane">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="i(2).webp" width="300" height="200" alt="qw">
+                        </td>
+                        <td>
+                            <p><b>Кратко о нём:</b><br>Землю захлестнула эпидемия нового вируса, который убивает всех старше 13 лет. А позже пришли вампиры, которые подчинили себе человечество. Сирота Юитиро в детстве настрадался от новых «хозяев», которые обращались с ним как с животным. Но теперь парень вырос, и у него одна цель — уничтожить всех кровососов</p>
+                            <button class="remove-button">read...</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pane">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="i.webp" width="300" height="200" alt="ew">
+                        </td>
+                        <td>
+                            <p><b>Кратко о нём</b><br>Восхождение в тени! (сериал 2022 – ...). Kage no Jitsuryokusha ni Naritakute! 2022 (1 сезон) 24 мин. В современной Японии обычный школьник мечтает стать героем и спасать всех, оставаясь в тени, но попадает под грузовик и умирает. После чего он рождается в новом мире под именем Сид Кагэно, где обнаруживает, что в мире есть магия, которая бы помогла бы ему осуществить свою мечту из предыдущей жизни.</p>
+                            <button class="remove-button">read...</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+                </td>
+                <td>
+                    <p>Посмотреть Последний Серафим</p>
+                    <a href="https://jut.su/owari-no-seraph/"><img src="i(3).webp" width="150" height="150" alt="asdf"></a>
+                    <p>Посмотреть Восхождение в тени</p>
+                    <a href="https://jut.su/kage-no-jitsuryokusha/"><img src="i(1).webp" width="150" height="150" alt="qwer"></a>
+                </td>
+        <script>
+            container.onclick = function(event) {
+              if (event.target.className != 'remove-button') return;
+              let pane = event.target.closest('.pane');
+              pane.remove();
+            };
+          </script>
+          </tr>
+        </table>
+        </body>
+</html>
